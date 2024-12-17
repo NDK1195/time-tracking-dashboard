@@ -34,12 +34,11 @@ function TimeTracking({ currentSelectedData }) {
               hrs
             </h3>
             <p className="text-[15px] leading-none text-pale-blue">
-              Last Week -{" "}
               {currentSelectedData === "daily"
-                ? data[0].timeframes.daily.previous
+                ? `Yesterday - ${data[0].timeframes.daily.previous}`
                 : currentSelectedData === "weekly"
-                  ? data[0].timeframes.weekly.previous
-                  : data[0].timeframes.monthly.previous}
+                  ? `Last Week - ${data[0].timeframes.weekly.previous}`
+                  : `Last Month - ${data[0].timeframes.monthly.previous}`}
               hrs
             </p>
           </div>
@@ -72,12 +71,11 @@ function TimeTracking({ currentSelectedData }) {
               hrs
             </h3>
             <p className="text-[15px] leading-none text-pale-blue">
-              Last Week -{" "}
               {currentSelectedData === "daily"
-                ? data[1].timeframes.daily.previous
+                ? `Yesterday - ${data[1].timeframes.daily.previous}`
                 : currentSelectedData === "weekly"
-                  ? data[1].timeframes.weekly.previous
-                  : data[1].timeframes.monthly.previous}
+                  ? `Last Week - ${data[1].timeframes.weekly.previous}`
+                  : `Last Month - ${data[1].timeframes.monthly.previous}`}
               hrs
             </p>
           </div>
@@ -110,12 +108,11 @@ function TimeTracking({ currentSelectedData }) {
               hrs
             </h3>
             <p className="text-[15px] leading-none text-pale-blue">
-              Last Week -{" "}
               {currentSelectedData === "daily"
-                ? data[2].timeframes.daily.previous
+                ? `Yesterday - ${data[2].timeframes.daily.previous}`
                 : currentSelectedData === "weekly"
-                  ? data[2].timeframes.weekly.previous
-                  : data[2].timeframes.monthly.previous}
+                  ? `Last Week - ${data[2].timeframes.weekly.previous}`
+                  : `Last Month - ${data[2].timeframes.monthly.previous}`}
               hrs
             </p>
           </div>
@@ -148,12 +145,11 @@ function TimeTracking({ currentSelectedData }) {
               hrs
             </h3>
             <p className="text-[15px] leading-none text-pale-blue">
-              Last Week -{" "}
               {currentSelectedData === "daily"
-                ? data[3].timeframes.daily.previous
+                ? `Yesterday - ${data[3].timeframes.daily.previous}`
                 : currentSelectedData === "weekly"
-                  ? data[3].timeframes.weekly.previous
-                  : data[3].timeframes.monthly.previous}
+                  ? `Last Week - ${data[3].timeframes.weekly.previous}`
+                  : `Last Month - ${data[3].timeframes.monthly.previous}`}
               hrs
             </p>
           </div>
@@ -186,12 +182,11 @@ function TimeTracking({ currentSelectedData }) {
               hrs
             </h3>
             <p className="text-[15px] leading-none text-pale-blue">
-              Last Week -{" "}
               {currentSelectedData === "daily"
-                ? data[4].timeframes.daily.previous
+                ? `Yesterday - ${data[4].timeframes.daily.previous}`
                 : currentSelectedData === "weekly"
-                  ? data[4].timeframes.weekly.previous
-                  : data[4].timeframes.monthly.previous}
+                  ? `Last Week - ${data[4].timeframes.weekly.previous}`
+                  : `Last Month - ${data[4].timeframes.monthly.previous}`}
               hrs
             </p>
           </div>
@@ -224,12 +219,11 @@ function TimeTracking({ currentSelectedData }) {
               hrs
             </h3>
             <p className="text-[15px] leading-none text-pale-blue">
-              Last Week -{" "}
               {currentSelectedData === "daily"
-                ? data[5].timeframes.daily.previous
+                ? `Yesterday - ${data[5].timeframes.daily.previous}`
                 : currentSelectedData === "weekly"
-                  ? data[5].timeframes.weekly.previous
-                  : data[5].timeframes.monthly.previous}
+                  ? `Last Week - ${data[5].timeframes.weekly.previous}`
+                  : `Last Month - ${data[5].timeframes.monthly.previous}`}
               hrs
             </p>
           </div>
